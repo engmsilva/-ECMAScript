@@ -130,17 +130,19 @@ const soma = numeros.reduce((total, numero) => total + numero, 0);
 console.log(soma); // Isso imprimirá 15
 ```
 
-## Métodos de Array (como map, filter, reduce):
+## Generator Function (função geradora):
 ```javascript
-const numeros = [1, 2, 3, 4, 5];
+function* contador() {
+  let i = 0;
+  while (true) {
+    yield i++;
+  }
+}
 
-const quadrados = numeros.map(numero => numero ** 2);
-console.log(quadrados); // Isso imprimirá [1, 4, 9, 16, 25]
+const gen = contador();
 
-const pares = numeros.filter(numero => numero % 2 === 0);
-console.log(pares); // Isso imprimirá [2, 4]
-
-const soma = numeros.reduce((total, numero) => total + numero, 0);
-console.log(soma); // Isso imprimirá 15
+console.log(gen.next().value); // 0
+console.log(gen.next().value); // 1
+console.log(gen.next().value); // 2
 ```
 
