@@ -13,7 +13,7 @@ Principais recursos introduzidos incluem:
 - Promises para lidar com código assíncrono de forma mais eficiente.
 - Melhorias em parâmetros de função, como parâmetros padrão e operador spread.
 
-[Snips de códigos de exemplos ECMAScript 6 (ES6/ES2015)](es6.md)
+[Snippet de códigos de exemplos ECMAScript 6 (ES6/ES2015)](es6.md)
 
 ## ECMAScript 2018 (ES2018)
 O ES2018 trouxe melhorias incrementais em relação ao ES6 e foi lançado em 2018.
@@ -22,7 +22,7 @@ Principais recursos introduzidos incluem:
 - Async/Await com try...catch: Facilita o tratamento de erros em funções assíncronas.
 - Object.entries() e Object.values(): Métodos que retornam pares chave-valor de objetos.
 
-[Snips de códigos de exemplo ECMAScript 2018 (ES2018)](es2018.md)
+[Snippet de códigos de exemplos ECMAScript 2018 (ES2018)](es2018.md)
 
 ## ECMAScript 2020 (ES2020):
 O ES2020 trouxe mais recursos e melhorias em relação ao ES2018 e foi lançado em 2020.
@@ -32,4 +32,4 @@ Principais recursos introduzidos incluem:
 - Métodos de string adicionais, como String.prototype.matchAll() e String.prototype.trimStart()/String.prototype.trimEnd().
 - BigInt: Um novo tipo numérico que permite representar inteiros arbitrariamente grandes.
 
-[Snips de códigos de exemplo ECMAScript 2020 (ES2020)](es2020.md)
+[Snippet de códigos de exemplos ECMAScript 2020 (ES2020)](es2020.md)
