@@ -4,8 +4,8 @@ As especificações ECMAScript (ES) são atualizadas regularmente, introduzindo 
 ## ECMAScript 6 (ES6/ES2015)
 Lançado em 2015, o ES6 foi uma atualização importante do JavaScript que introduziu várias melhorias e recursos significativos.
 Principais recursos introduzidos incluem:
-- ´let´ e ´const´ para declarar variáveis.
-- Arrow functions (´() => {}´) para funções mais concisas.
+- `let` e `const` para declarar variáveis.
+- Arrow functions (`() => {}`) para funções mais concisas.
 - Classes para criar objetos e hierarquias de herança.
 - Módulos para organizar código em arquivos separados.
 - Desestruturação para extrair valores de objetos e arrays.
