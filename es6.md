@@ -130,6 +130,24 @@ const soma = numeros.reduce((total, numero) => total + numero, 0);
 console.log(soma); // Isso imprimirá 15
 ```
 
+## Object.entries() e Object.values():
+```javascript
+const objeto = { a: 1, b: 2, c: 3 };
+
+// Object.entries() retorna uma matriz de pares chave-valor
+const pares = Object.entries(objeto);
+console.log(pares); // Isso imprimirá [["a", 1], ["b", 2], ["c", 3]]
+
+// Object.values() retorna um array com os valores do objeto
+const valores = Object.values(objeto);
+console.log(valores); // Isso imprimirá [1, 2, 3]
+
+// Object.keys() retorna um array com todas as chaves de um objeto
+const objeto = { a: 1, b: 2, c: 3 };
+const chaves = Object.keys(objeto);
+console.log(chaves); // Isso imprimirá ["a", "b", "c"]
+```
+
 ## Generator Function (função geradora):
 ```javascript
 function* contador() {
