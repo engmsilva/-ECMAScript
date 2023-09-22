@@ -33,19 +33,3 @@ Principais recursos introduzidos incluem:
 - BigInt: Um novo tipo numérico que permite representar inteiros arbitrariamente grandes.
 
 [Snips de códigos de exemplo ECMAScript 2020 (ES2020)](es2020.md)
-
-<button onclick="toggleContent()">Mostrar/Ocultar Texto</button>
-<div id="content" style="display: none;">
-Este é o texto que você pode mostrar e ocultar dinamicamente.
-</div>
-
-<script>
-function toggleContent() {
-  var content = document.getElementById("content");
-  if (content.style.display === "none") {
-    content.style.display = "block";
-  } else {
-    content.style.display = "none";
-  }
-}
-</script>
