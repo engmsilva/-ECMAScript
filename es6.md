@@ -130,7 +130,7 @@ const soma = numeros.reduce((total, numero) => total + numero, 0);
 console.log(soma); // Isso imprimirá 15
 ```
 
-## Object.entries() e Object.values():
+## Object.entries(), Object.values() e Object.keys():
 ```javascript
 const objeto = { a: 1, b: 2, c: 3 };
 
