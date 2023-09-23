@@ -8,14 +8,14 @@ var x = 10;
 if (true) {
   var x = 20;
 }
-console.log(x); // Isso imprimirá <i>20c</i>
+console.log(x); // Isso imprimirá "20"
 
 // Com let (escopo de bloco)
 let y = 10;
 if (true) {
   let y = 20;
 }
-console.log(y); // Isso imprimirá *10* (não afeta a variável externa)
+console.log(y); // Isso imprimirá "10" (não afeta a variável externa)
 ```
 
 ## Arrow Functions:
@@ -36,7 +36,7 @@ const soma = (a, b) => a + b;
 const numeros = [1, 2, 3];
 const maisNumeros = [...numeros, 4, 5];
 
-console.log(maisNumeros); // Isso imprimirá *[1, 2, 3, 4, 5]*
+console.log(maisNumeros); // Isso imprimirá "[1, 2, 3, 4, 5]"
 ```
 
 ## For/of:
@@ -80,8 +80,8 @@ listCart();
 
 // Saída esperada
 // Carrinho de compras:
-// *Camiseta: 5*
-// *Calça: 1*
+// "Camiseta: 5"
+// "Calça: 1"
 ```
 
 ## Set Object:
@@ -104,7 +104,7 @@ class Animal {
 }
 
 const gato = new Animal('Gato');
-gato.falar(); // Isso imprimirá *Gato faz barulho.*
+gato.falar(); // Isso imprimirá "Gato faz barulho."
 ```
 
 ## Promises:
@@ -120,7 +120,7 @@ function esperar(segundos) {
 
 esperar(2)
   .then(resultado => {
-    console.log(resultado); // Isso imprimirá *Esperei 2 segundos.*
+    console.log(resultado); // Isso imprimirá "Esperei 2 segundos."
   })
   .catch(erro => {
     console.error(erro);
@@ -135,8 +135,8 @@ const user = {
 };
 const metadata = Symbol('metadata');
 user[metadata] = { age: 30, email: 'alice@example.com' };
-console.log(user); // Isso imprimirá *{name: 'Alice', Symbol(metadata): {…}}*
-console.log(user[metadata]); // Isso imprimirá *{age: 30, email: 'alice@example.com'}*
+console.log(user); // Isso imprimirá "{name: 'Alice', Symbol(metadata): {…}}"
+console.log(user[metadata]); // Isso imprimirá "{age: 30, email: 'alice@example.com'}"
 ```
 
 ## Default Parameters (Parâmetros Padrão):
@@ -146,8 +146,8 @@ console.log(user[metadata]); // Isso imprimirá *{age: 30, email: 'alice@example
 function saudacao(nome = 'Visitante') {
   console.log(`Olá, ${nome}!`);
 }
-saudacao(); // Isso imprimirá *Olá, Visitante!*
-saudacao('João'); // Isso imprimirá *Olá, João!*
+saudacao(); // Isso imprimirá "Olá, Visitante!"
+saudacao('João'); // Isso imprimirá "Olá, João!"
 ```
 
 ## Function Rest Parameter (Parâmetros de Função Rest):
@@ -157,7 +157,7 @@ function soma(...numeros) {
   return numeros.reduce((total, numero) => total + numero, 0);
 }
 
-console.log(soma(1, 2, 3, 4)); // Isso imprimirá *10*
+console.log(soma(1, 2, 3, 4)); // Isso imprimirá "10"
 ```
 
 ## String.includes():
@@ -165,7 +165,7 @@ console.log(soma(1, 2, 3, 4)); // Isso imprimirá *10*
 ```javascript
 const message = 'Hello, world!';
 const hasHello = message.includes('Hello');
-console.log(hasHello); Isso imprimirá *true*
+console.log(hasHello); Isso imprimirá "true"
 ```
 
 ## Object.entries(), Object.values() e Object.keys():
@@ -179,12 +179,12 @@ console.log(pares); // Isso imprimirá *[["a", 1], ["b", 2], ["c", 3]]*
 
 // Object.values() retorna um array com os valores do objeto
 const valores = Object.values(objeto);
-console.log(valores); // Isso imprimirá *[1, 2, 3]*
+console.log(valores); // Isso imprimirá "[1, 2, 3]"
 
 // Object.keys() retorna um array com todas as chaves de um objeto
 const objeto = { a: 1, b: 2, c: 3 };
 const chaves = Object.keys(objeto);
-console.log(chaves); // Isso imprimirá *["a", "b", "c"]*
+console.log(chaves); // Isso imprimirá "["a", "b", "c"]"
 ```
 
 ## JavaScript Modules:
@@ -197,7 +197,7 @@ export const soma = (a, b) => a + b;
 // Importando um módulo
 // arquivo principal.js
 import { soma } from './modulo';
-console.log(soma(2, 3)); // Isso imprimirá *5*
+console.log(soma(2, 3)); // Isso imprimirá "5"
 ```
 
 ## Destructuring Assignment (Atribuição por Desestruturação):
@@ -207,12 +207,12 @@ console.log(soma(2, 3)); // Isso imprimirá *5*
 const pessoa = { nome: 'Alice', idade: 30 };
 const { nome, idade } = pessoa;
 console.log(nome); // Isso imprimirá "Alice"
-console.log(idade); // Isso imprimirá *30*
+console.log(idade); // Isso imprimirá "30"
 
 // Desestruturação de Array
 const iterable = ['a', 'b'];
 const [x, y] = iterable;
-console.log(x, y); // x = *a*; y = *b*
+console.log(x, y); // x = *a*; y = "b"
 ```
 
 ## Template Literals:
@@ -258,8 +258,8 @@ function* contador() {
 
 const gen = contador();
 
-console.log(gen.next().value); // *0*
-console.log(gen.next().value); // *1*
-console.log(gen.next().value); // *2*
+console.log(gen.next().value); // "0"
+console.log(gen.next().value); // "1"
+console.log(gen.next().value); // "2"
 ```
 
