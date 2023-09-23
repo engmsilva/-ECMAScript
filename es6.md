@@ -1,7 +1,7 @@
 # ECMAScript 6 (ES6/ES2015)
 
 ## Let e Const:
-**Descrição:** `let` e `const` para declarar variáveis
+**Descrição:** `let` e `const` para declarar *variáveis*
 ```javascript
 // Com var (escopo global ou de função)
 var x = 10;
