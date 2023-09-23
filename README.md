@@ -2,7 +2,7 @@
 As especificações ECMAScript (ES) são atualizadas regularmente, introduzindo novos recursos e melhorias na linguagem JavaScript. A seguir são destacada algumas das principais diferenças entre as especificações ES6 (também conhecida como ES2015), ES2018 e ES2020:
 
 ## ECMAScript 6 (ES6/ES2015)
-Lançado em 2015, o ECMAScript 6 foi uma atualização importante do JavaScript que introduziu [várias melhorias e recursos significativos](https://exemplo.com/](https://exploringjs.com/es6/ch_core-features.html).
+Lançado em 2015, o ECMAScript 6 foi uma atualização importante do JavaScript que introduziu [várias melhorias e recursos significativos](https://exploringjs.com/es6/ch_core-features.html).
 Principais recursos introduzidos incluem:
 - `let` e `const`: Declara variáveis com escopo de bloco.
 - Arrow Function: Uma função curta e concisa usando a sintaxe `() => {}`.
