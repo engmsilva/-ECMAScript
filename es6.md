@@ -8,7 +8,7 @@ var x = 10;
 if (true) {
   var x = 20;
 }
-console.log(x); // Isso imprimirá *20*
+console.log(x); // Isso imprimirá _20_
 
 // Com let (escopo de bloco)
 let y = 10;
