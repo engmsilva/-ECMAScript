@@ -85,9 +85,13 @@ listCart();
 ```
 
 ## Set Object:
-**Descrição:** Uma coleção de valores únicos
+**Descrição:** é uma estrutura de dados que armazena valores únicos, onde cada valor é tratado como único, independentemente de quantas vezes você o adicione.
 ```javascript
-const set = new Set([1, 2, 3]);
+const mySet = new Set();
+mySet.add(1);
+mySet.add(2);
+mySet.add(2); // Este valor duplicado será ignorado
+console.log(mySet); // Isso imprimirá "Set { 1, 2 }"
 ```
 
 ## Classes:
@@ -165,7 +169,7 @@ console.log(soma(1, 2, 3, 4)); // Isso imprimirá "10"
 ```javascript
 const message = 'Hello, world!';
 const hasHello = message.includes('Hello');
-console.log(hasHello); Isso imprimirá "true"
+console.log(hasHello); // Isso imprimirá "true"
 ```
 
 ## Object.entries(), Object.values() e Object.keys():
@@ -175,7 +179,7 @@ const objeto = { a: 1, b: 2, c: 3 };
 
 // Object.entries() retorna uma matriz de pares chave-valor
 const pares = Object.entries(objeto);
-console.log(pares); // Isso imprimirá *[["a", 1], ["b", 2], ["c", 3]]*
+console.log(pares); // Isso imprimirá "[["a", 1], ["b", 2], ["c", 3]]"
 
 // Object.values() retorna um array com os valores do objeto
 const valores = Object.values(objeto);
@@ -212,7 +216,7 @@ console.log(idade); // Isso imprimirá "30"
 // Desestruturação de Array
 const iterable = ['a', 'b'];
 const [x, y] = iterable;
-console.log(x, y); // x = *a*; y = "b"
+console.log(x, y); // x = "a"; y = "b"
 ```
 
 ## Template Literals:
