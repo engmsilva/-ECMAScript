@@ -22,7 +22,7 @@ Principais recursos introduzidos incluem:
 - **Template literals:** Permite a incorporação de expressões JavaScript dentro de strings usando a sintaxe `${expressão}`.
 - **Generator Function:** Permiti que a execução de uma função possa ser pausada e retomada posteriormente.
 
-[Snippet de códigos de exemplos ECMAScript 6 (ES6/ES2015)](es6.md)
+[Snippet de códigos de exemplos ECMAScript 6 (ES6/ES2015)](es2015.md)
 
 ## ECMAScript 2018 (ES2018)
 O ES2018 trouxe melhorias incrementais em relação ao ES6 e foi lançado em 2018.
