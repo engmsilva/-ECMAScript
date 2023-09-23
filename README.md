@@ -4,23 +4,23 @@ As especificações ECMAScript (ES) são atualizadas regularmente, introduzindo 
 ## ECMAScript 6 (ES6/ES2015)
 Lançado em 2015, o ECMAScript 6 foi uma atualização importante do JavaScript que introduziu [várias melhorias e recursos significativos](https://exploringjs.com/es6/ch_core-features.html).
 Principais recursos introduzidos incluem:
-- `let` e `const`: Declara variáveis com escopo de bloco.
-- Arrow Function: Uma função curta e concisa usando a sintaxe `() => {}`.
-- Spread Operator: Espalha os elementos de um array em outro array.
-- For/of: Uma maneira simplificada de iterar em elementos de uma coleção, como um array.
-- Map Object: Uma coleção de pares chave-valor onde as chaves podem ser objetos.
-- Set Object: Uma coleção de valores únicos.
-- Classes: Uma maneira de criar objetos e definir métodos em um formato mais orientado a objetos.
-- Promises: Lida com código assíncrono de forma mais eficiente.
-- Symbol: Um tipo de dado primitivo que é usado para criar identificadores únicos.
-- Default Parameters: Permite definir valores padrão para parâmetros de função.
-- Function Rest Parameter: Permite passar um número variável de argumentos para uma função.
-- String.includes(): Verifica se uma string contém outra string.
-- Object.entries(), Object.values() e Object.keys(): Métodos que retornam pares chave-valor de objetos.
-- JavaScript Modules: Permite dividir o código em módulos separados para melhor organização e reutilização.
-- Destructuring Assignment: Desestruturação para extrair valores de objetos e arrays.
-- Template literals: Permite a incorporação de expressões JavaScript dentro de strings usando a sintaxe `${expressão}`.
-- Generator Function: Permiti que a execução de uma função possa ser pausada e retomada posteriormente.
+- **`let` e `const`:** Declara variáveis com escopo de bloco.
+- **Arrow Function:** Uma função curta e concisa usando a sintaxe `() => {}`.
+- **Spread Operator:** Espalha os elementos de um array em outro array.
+- **For/of:** Uma maneira simplificada de iterar em elementos de uma coleção, como um array.
+- **Map Object:** Uma coleção de pares chave-valor onde as chaves podem ser objetos.
+- **Set Object:** Uma coleção de valores únicos.
+- **Classes:** Uma maneira de criar objetos e definir métodos em um formato mais orientado a objetos.
+- **Promises:** Lida com código assíncrono de forma mais eficiente.
+- **Symbol:** Um tipo de dado primitivo que é usado para criar identificadores únicos.
+- **Default Parameters:** Permite definir valores padrão para parâmetros de função.
+- **Function Rest Parameter:** Permite passar um número variável de argumentos para uma função.
+- **String.includes():** Verifica se uma string contém outra string.
+- **Object.entries(), Object.values() e Object.keys():** Métodos que retornam pares chave-valor de objetos.
+- **JavaScript Modules:** Permite dividir o código em módulos separados para melhor organização e reutilização.
+- **Destructuring Assignment:** Desestruturação para extrair valores de objetos e arrays.
+- **Template literals:** Permite a incorporação de expressões JavaScript dentro de strings usando a sintaxe `${expressão}`.
+- **Generator Function:** Permiti que a execução de uma função possa ser pausada e retomada posteriormente.
 
 [Snippet de códigos de exemplos ECMAScript 6 (ES6/ES2015)](es6.md)
 
