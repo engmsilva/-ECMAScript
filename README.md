@@ -27,8 +27,10 @@ Principais recursos introduzidos incluem:
 ## ECMAScript 2018 (ES2018)
 O ES2018 trouxe melhorias incrementais em relação ao ES6 e foi lançado em 2018.
 Principais recursos introduzidos incluem:
-- Rest/Spread Properties: Permite o uso do operador spread (...) em objetos.
-- Async/Await com try...catch: Facilita o tratamento de erros em funções assíncronas.
+- **Array.includes():** verifica se um determinado elemento está presente em um array.
+- **Exponentiation Operator:** operador (`**`) utilizado para calcular a potência de um número.
+- **Rest/Spread Properties**: Permite o uso do operador spread (...) em objetos.
+- **Async/Await com try...catch**: Facilita o tratamento de erros em funções assíncronas.
 
 [Snippet de códigos de exemplos ECMAScript 2018 (ES2018)](es2018.md)
 
